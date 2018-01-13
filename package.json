@@ -1,8 +1,8 @@
 {
   "name": "node-buxfer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Buxfer API wrapper",
-  "main": "lib/buxfer.js",
+  "main": "dist/buxfer.js",
   "directories": {
     "test": "test"
   },

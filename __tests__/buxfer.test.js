@@ -1,4 +1,11 @@
-const config = require('./config.json');
+var config;
+if (typeof process.env.TOKEN !== 'undefined') {
+    config = {
+        'token': process.env.TOKEN,
+    };
+} else {
+    config = require('./config.json');
+}
 
 const Buxfer = require('../lib/buxfer');
 
@@ -10,7 +17,6 @@ test('Create Buxfer object', () => {
 test('get transactions', (done) => {
     const api = new Buxfer(config.token);
     api.getTransactions(function (error, data) {
-        console.log(error, data);
         done();
     });
 });

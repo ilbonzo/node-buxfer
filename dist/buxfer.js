@@ -134,9 +134,6 @@ var Buxfer = function () {
         key: 'getTransactions',
         value: function getTransactions(callback) {
             this._get('transactions', {}, function (error, body) {
-                // @TODO matteo
-                console.log(error);
-                console.log(body);
                 callback(error, body.pipelines);
             });
         }

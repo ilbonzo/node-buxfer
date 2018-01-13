@@ -55,6 +55,7 @@ create file __tests__/config.json from __tests__/config.sample.json with your va
 {
     "token": "xxxxxxxxxx"
 }
+```
 
 ```shell
 $ npm test

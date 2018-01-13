@@ -1,6 +1,6 @@
 {
   "name": "node-buxfer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Buxfer API wrapper",
   "main": "dist/buxfer.js",
   "directories": {

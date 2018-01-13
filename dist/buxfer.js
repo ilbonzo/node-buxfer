@@ -56,7 +56,6 @@ var Buxfer = function () {
         value: function _get(url, parameters, callback) {
             parameters = (0, _xtend2.default)(parameters, this.credentials); // Add credentials to parameters
             var getURL = API_URL + '/' + url + '?' + _querystring2.default.stringify(parameters); // Construct URL with parameters
-
             _request2.default.get({
                 url: getURL,
                 strictSSL: true,
@@ -134,7 +133,7 @@ var Buxfer = function () {
         key: 'getTransactions',
         value: function getTransactions(callback) {
             this._get('transactions', {}, function (error, body) {
-                callback(error, body.pipelines);
+                callback(error, body.response.transactions);
             });
         }
     }]);

@@ -1,0 +1,6 @@
+node_modules
+__tests__/config.json
+coverage
+
+app_test.js
+__mocks__

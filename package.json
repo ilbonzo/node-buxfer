@@ -1,0 +1,51 @@
+{
+  "name": "node-buxfer",
+  "version": "0.1.0",
+  "description": "Buxfer API wrapper",
+  "main": "lib/buxfer.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "scripts": {
+    "build": "rimraf dist/ && npx babel lib -d dist",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "codecov": "node_modules/.bin/codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilbonzo/node-buxfer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "buxfer",
+    "buxfer-api"
+  ],
+  "author": "Matteo Magni <matteo@magni.me> (magni.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilbonzo/node-buxfer/issues"
+  },
+  "homepage": "https://github.com/ilbonzo/node-buxfer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.0.6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
+    "jest": "^22.0.6",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "xtend": "^4.0.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": true
+  }
+}

@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/ilbonzo/node-buxfer/branch/master/graph/badge.svg)](https://codecov.io/gh/ilbonzo/node-buxfer)
 [![Dependencies Status](https://david-dm.org/ilbonzo/node-buxfer.svg)](https://david-dm.org/ilbonzo/node-buxfer)
 [![Dev Dependency Status](https://david-dm.org/ilbonzo/node-buxfer/dev-status.svg)](https://david-dm.org/ilbonzo/node-buxfer?type=dev)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ilbonzo/node-buxfer?branch=master)](https://bettercodehub.com/)
 
 ### A Node.js wrapper for the Buxfer API
 
